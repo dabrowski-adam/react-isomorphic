@@ -86,6 +86,15 @@ const config = {
         },
       },
       {
+        test: /\.scss$/,
+        loaders: [
+          'isomorphic-style-loader',
+          `css-loader?${JSON.stringify({ sourceMap: isDebug, minimize: !isDebug })}`,
+          'postcss-loader?pack=sass',
+          'sass-loader',
+        ],
+      },
+      {
         test: /\.css/,
         loaders: [
           'isomorphic-style-loader',
@@ -213,6 +222,9 @@ const config = {
             'not ie < 9', // React doesn't support IE8 anyway
           ],
         }),
+      ],
+      sass: [
+        require('autoprefixer')(),
       ],
     };
   },

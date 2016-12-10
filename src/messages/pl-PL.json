@@ -2,7 +2,7 @@
   {
     "id": "header.banner.desc",
     "defaultMessage": "Complex web apps made easy",
-    "message": "Komplexní aplikace jednodušše",
+    "message": "Prosty sposób na skomplikowane aplikacje",
     "description": "Description in header",
     "files": [
       "src/components/Header/Header.js"
@@ -20,7 +20,7 @@
   {
     "id": "header.brand",
     "defaultMessage": "Your Company Brand",
-    "message": "Vaše firma",
+    "message": "Wasza firma",
     "description": "Brand name displayed in header",
     "files": [
       "src/components/Header/Header.js"
@@ -29,7 +29,7 @@
   {
     "id": "navigation.about",
     "defaultMessage": "About",
-    "message": "O nás",
+    "message": "O nas",
     "description": "About link in header",
     "files": [
       "src/components/Navigation/Navigation.js"
@@ -47,7 +47,7 @@
   {
     "id": "navigation.login",
     "defaultMessage": "Log in",
-    "message": "Přihlásit",
+    "message": "Logowanie",
     "description": "Log in link in header",
     "files": [
       "src/components/Navigation/Navigation.js"
@@ -56,7 +56,7 @@
   {
     "id": "navigation.signup",
     "defaultMessage": "Sign up",
-    "message": "Registrace",
+    "message": "Rejestracja",
     "description": "Sign up link in header",
     "files": [
       "src/components/Navigation/Navigation.js"
@@ -65,7 +65,7 @@
   {
     "id": "navigation.separator.or",
     "defaultMessage": "or",
-    "message": "nebo",
+    "message": "lub",
     "description": "Last separator in list, lowercase \"or\"",
     "files": [
       "src/components/Navigation/Navigation.js"

@@ -9,7 +9,7 @@
 
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './NotFound.css';
+import s from './NotFound.scss';
 
 class NotFound extends React.Component {
   static propTypes = {
@@ -17,12 +17,16 @@ class NotFound extends React.Component {
   };
 
   render() {
+    const { title } = this.props;
     return (
-      <div className={s.root}>
-        <div className={s.container}>
-          <h1>{this.props.title}</h1>
-          <p>Sorry, the page you were trying to view does not exist.</p>
-        </div>
+      <div>
+        <section className="hero is-danger is-fullheight">
+          <div className="hero-body">
+            <div className="container has-text-centered">
+              <h1 className="title is-1">{title}</h1>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

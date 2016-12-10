@@ -15,13 +15,13 @@ import queryString from 'query-string';
 import { createPath } from 'history/PathUtils';
 import { addLocaleData } from 'react-intl';
 import en from 'react-intl/locale-data/en';
-import cs from 'react-intl/locale-data/cs';
+import pl from 'react-intl/locale-data/pl';
 import history from './core/history';
 import App from './components/App';
 import configureStore from './store/configureStore';
 import { ErrorReporter, deepForceUpdate } from './core/devUtils';
 
-[en, cs].forEach(addLocaleData);
+[en, pl].forEach(addLocaleData);
 
 const store = configureStore(window.APP_STATE, { history });
 // Global (context) variables that can be easily accessed from any React component

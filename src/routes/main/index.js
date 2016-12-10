@@ -7,15 +7,19 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-@import '../../components/variables.css';
+import React from 'react';
+import Home from './Home';
+import Template from '../../components/Template';
 
-.root {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+export default {
 
-.container {
-  margin: 0 auto;
-  padding: 0 0 40px;
-  max-width: var(--max-content-width);
-}
+  path: '/',
+
+  async action() {
+    return {
+      title: 'Home',
+      component: <Template><Home /></Template>,
+    };
+  },
+
+};
