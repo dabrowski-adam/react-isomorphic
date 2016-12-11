@@ -8,10 +8,10 @@
  */
 
 import React from 'react';
-import Layout from '../../components/Layout';
-import Contact from './Contact';
+import Template from '../../components/Template';
+import Back from '../../components/Back';
 
-const title = 'Contact Us';
+const title = 'Contact';
 
 export default {
 
@@ -20,7 +20,7 @@ export default {
   action() {
     return {
       title,
-      component: <Layout><Contact title={title} /></Layout>,
+      component: <Template card={<Back />} />,
     };
   },
 

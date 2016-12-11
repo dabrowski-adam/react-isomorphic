@@ -8,17 +8,19 @@
  */
 
 import React from 'react';
-import Home from './Home';
 import Template from '../../components/Template';
+import Front from '../../components/Front';
+
+const title = 'Home';
 
 export default {
 
   path: '/',
 
-  async action() {
+  action() {
     return {
-      title: 'Home',
-      component: <Template><Home /></Template>,
+      title,
+      component: <Template card={<Front />} />,
     };
   },
 

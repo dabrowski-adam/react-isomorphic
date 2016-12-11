@@ -1,0 +1,6 @@
+{
+  "name": "Front",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Front.js"
+}
