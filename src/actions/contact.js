@@ -20,7 +20,7 @@ export const submitMessage = (data) => {
         });
 
         if (response.ok) {
-          dispatch({ type: SUBMIT_MESSAGE_SUCCESS });
+          //dispatch({ type: SUBMIT_MESSAGE_SUCCESS });
           resolve();
         } else if (response.status === 400) {
           throw new SubmissionError(response.statusText);

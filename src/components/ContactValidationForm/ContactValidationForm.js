@@ -47,9 +47,9 @@ const ContactValidationForm = (props) => {
   return (
     <form onSubmit={handleSubmit}>
       <Field name="message" type="textarea" component={renderField} label="Message" />
-      <div className="control is-grouped" style={{marginTop: '0.5rem'}}>
+      <div className="control is-grouped" style={{ marginTop: '0.5rem' }}>
         <p className="control has-icon is-expanded">
-          <Field name="email" type="email" component={renderField} label="Email" />
+          <Field name="_replyto" type="email" component={renderField} label="Email" />
           <i className="fa fa-envelope" />
         </p>
         <button className={`button is-primary ${submitting ? 'is-loading' : ''}`} type="submit" disabled={pristine || submitting}>Send</button>
