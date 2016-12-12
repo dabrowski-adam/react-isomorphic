@@ -10,7 +10,7 @@ import {
 } from '../constants';
 
 
-export const submit = async data => {
+export const submitMessage = async data => {
   try {
     const response = await fetch(
       'https://formspree.io/form@adamdabrowski.com',
