@@ -31,6 +31,6 @@ const formspree = async data => {
   }
 };
 
-export const submitMessage = return formspree(data)
+export const submitMessage = data => formspree(data)
   .then(resolved => resolved, rejected => { throw rejected })
   .catch(error => { throw error });
