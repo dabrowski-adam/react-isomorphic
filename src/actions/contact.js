@@ -9,8 +9,7 @@ import {
   SUBMIT_MESSAGE_ERROR,*/
 } from '../constants';
 
-
-export const submitMessage = async data => {
+const formspree async data => {
   try {
     const response = await fetch(
       'https://formspree.io/form@adamdabrowski.com',
@@ -31,3 +30,7 @@ export const submitMessage = async data => {
     throw error;
   }
 };
+
+export const submitMessage = return formspree(data)
+  .then(resolved => resolved, rejected => { throw rejected })
+  .catch(error => { throw error });
