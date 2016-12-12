@@ -1,0 +1,6 @@
+{
+  "name": "ContactValidationForm",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ContactValidationForm.js"
+}

@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+
+import Link from '../Link';
+import ContactValidationForm from '../ContactValidationForm';
+import submitMessage from '../../actions/contact';
+
+class Back extends Component {
+  render() {
+    return (
+      <div className="tile is-ancestor is-vertical" style={{ height: '16rem', justifyContent: 'space-around' }}>
+        <h2 className="title">Contact<Link to="/"><i className="fa fa-undo pull-right" /></Link></h2>
+        <ContactValidationForm handleSubmit={submitMessage} />
+      </div>
+    );
+  }
+}
+
+export default Back;
