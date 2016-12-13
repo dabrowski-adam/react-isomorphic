@@ -15,7 +15,7 @@ class Front extends Component {
         <ul className="level">
           <li className="level-item has-text-centered">
             <Link to="https://linkedin.com/in/adam-dbrowski">
-             <span className="icon is-large">
+              <span className="icon is-large">
                 <i className="fa fa-linkedin" />
               </span>
             </Link>
