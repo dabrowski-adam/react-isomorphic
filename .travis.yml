@@ -10,6 +10,7 @@ addons:
     packages:
       - g++-4.8
 script:
-  - yarn
+  - yarn install concat-stream
+  - yarn install commander
   - yarn run lint
   - yarn run test
