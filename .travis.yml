@@ -12,5 +12,5 @@ addons:
 script:
   - yarn install concat-stream
   - yarn install commander
-  - yarn run lint
-  - yarn run test
+  - yarn add lint
+  - yarn add test
