@@ -10,5 +10,8 @@ addons:
     packages:
       - g++-4.8
 script:
+  - yarn global add eslint
+  - yarn global add stylelint
+  - tarn global add mocha
   - yarn run lint
   - yarn run test
