@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - '6'
+  - '7'
 env:
   - CXX=g++-4.8
 addons:
@@ -10,7 +10,5 @@ addons:
     packages:
       - g++-4.8
 script:
-  - yarn install concat-stream
-  - yarn install commander
-  - yarn add lint
-  - yarn add test
+  - yarn run lint
+  - yarn run test
