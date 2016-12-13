@@ -16,10 +16,10 @@ export default combineReducers({
   content,
   contact,
   form: formReducer.plugin({
-    account: (state, action) => { // <------ 'account' is name of form given to reduxForm()
+    contactValidation: (state, action) => {
       switch (action.type) {
         case SUBMIT_MESSAGE_SUCCESS:
-          return undefined;       // <--- blow away form data
+          return undefined;
         default:
           return state;
       }

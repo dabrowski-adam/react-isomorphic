@@ -59,7 +59,7 @@ const ContactValidationForm = (props) => {
 };
 
 renderField.propTypes = {
-  input: PropTypes.array, // ?
+  // input: PropTypes.array, // ?
   label: PropTypes.string,
   type: PropTypes.string,
   meta: PropTypes.shape({
