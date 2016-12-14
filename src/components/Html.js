@@ -59,6 +59,7 @@ class Html extends React.Component {
           {analytics.google.trackingId &&
             <script src="https://www.google-analytics.com/analytics.js" async defer />
           }
+          <link href="https://fonts.googleapis.com/css?family=Rubik:300i" rel="stylesheet" />
           <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet" />
         </body>
       </html>

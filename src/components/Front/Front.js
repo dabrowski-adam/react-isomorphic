@@ -8,7 +8,7 @@ class Front extends Component {
     return (
       <div className="tile is-vertical" style={{ justifyContent: 'space-around', height: '100%' }}>
         <h1 className="title is-1"><img src={logo} alt="Adam Dąbrowski" /></h1>
-        <h2 className="subtitle is-3" style={{ fontFamily: 'Rubik', fontStyle: 'italic' }}>Software Developer</h2>
+        <h2 className="subtitle is-3" style={{ fontFamily: 'Rubik, sans-serif', fontStyle: 'italic', fontWeight: '300' }}>Software Developer</h2>
         <ul className="level">
           <li className="level-item has-text-centered title is-marginless"><Link to="/contact">/contact</Link></li>
           <li className="level-item has-text-centered is-disabled title is-marginless"><Link to="/resume" className="is-disabled">/resume</Link></li>
