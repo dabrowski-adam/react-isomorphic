@@ -18,9 +18,9 @@ class Template extends React.Component {
   render() {
     const { card } = this.props;
     return (
-      <section className="hero is-light is-fullheight" style={{ background: 'url(hero-1366x768.jpg) center', backgroundSize: 'cover' }}>
+      <section className="hero is-light is-fullheight" style={{ background: 'url(hero-l.jpg) center', backgroundSize: 'cover' }}>
         <div className="hero-body" style={{ justifyContent: 'center' }}>
-          <div className="box has-text-centered" style={{ width: '35rem', height: '19.5rem' }}>
+          <div className="box has-text-centered" style={{ width: '35rem', minHeight: '19rem' }}>
             {card}
           </div>
         </div>
