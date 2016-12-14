@@ -43,7 +43,7 @@ const renderField = ({ input, label, type, meta: { touched, error, warning } }) 
 );
 
 const ContactValidationForm = (props) => {
-  const { handleSubmit, pristine, /* reset, */ submitting } = props;
+  const { handleSubmit, /* pristine, reset, */ submitting } = props;
   return (
     <form onSubmit={handleSubmit}>
       <Field name="message" type="textarea" component={renderField} label="Message" />
@@ -71,7 +71,6 @@ renderField.propTypes = {
 
 ContactValidationForm.propTypes = {
   handleSubmit: PropTypes.func.isRequired,
-  pristine: PropTypes.bool.isRequired,
   submitting: PropTypes.bool.isRequired,
 };
 
