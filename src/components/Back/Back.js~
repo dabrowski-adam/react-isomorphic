@@ -8,7 +8,7 @@ import { submitMessage } from '../../actions/contact';
 class Back extends Component {
   render() {
     return (
-      <div className="tile is-vertical" style={{ height: '100%', justifyContent: 'space-around' }}>
+      <div className="tile is-ancestor is-vertical" style={{ height: '16rem', justifyContent: 'space-around' }}>
         <div className="nav">
           <div className="nav-left" />
           <div className="nav-center"><h2 className="title nav-item">Contact</h2></div>
