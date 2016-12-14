@@ -7,6 +7,7 @@ class Front extends Component {
     return (
       <div className="tile is-ancestor is-vertical" style={{ minHeight: '16rem', justifyContent: 'space-around' }}>
         <h1 className="title is-1">Adam Dąbrowski</h1>
+        <h2 className="subtitle is-3">Software Developer</h2>
         <ul className="level">
           <li className="level-item has-text-centered title is-marginless"><Link to="/contact">/contact</Link></li>
           <li className="level-item has-text-centered is-disabled title is-marginless"><Link to="/resume" className="is-disabled">/resume</Link></li>
