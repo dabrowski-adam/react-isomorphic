@@ -16,32 +16,32 @@ class Front extends Component {
         </ul>
         <ul className="level is-mobile">
           <li className="level-item has-text-centered">
-            <Link to="https://linkedin.com/in/adam-dbrowski">
+            <a rel="external" href="https://linkedin.com/in/adam-dbrowski">
               <span className="icon is-large">
                 <i className="fa fa-linkedin" />
               </span>
-            </Link>
+            </a>
           </li>
           <li className="level-item has-text-centered">
-            <Link to="https://dribbble.com/adamdabrowski">
+            <a rel="external" href="https://dribbble.com/adamdabrowski">
               <span className="icon is-large">
                 <i className="fa fa-dribbble" />
               </span>
-            </Link>
+            </a>
           </li>
           <li className="level-item has-text-centered">
-            <Link to="https://github.com/dabrowski-adam">
+            <a rel="external" href="https://github.com/dabrowski-adam">
               <span className="icon is-large">
                 <i className="fa fa-github" />
               </span>
-            </Link>
+            </a>
           </li>
           <li className="level-item has-text-centered">
-            <Link to="https://twitter.com/Ethesen">
+            <a rel="external" href="https://twitter.com/Ethesen">
               <span className="icon is-large">
                 <i className="fa fa-twitter" />
               </span>
-            </Link>
+            </a>
           </li>
         </ul>
       </div>);
