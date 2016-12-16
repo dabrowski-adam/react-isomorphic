@@ -75,7 +75,7 @@ const config = {
               // https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-react-jsx-self
               'transform-react-jsx-self',
             ],
-            ['transform-decorators-legacy'],
+            'transform-decorators-legacy',
             // https://github.com/yahoo/babel-plugin-react-intl#options
             ['react-intl',
               {
