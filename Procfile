@@ -1,2 +1,2 @@
-web: npm run build -- --release && node ./build/server.js
+web: node ./build/server.js
 
