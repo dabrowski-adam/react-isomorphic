@@ -29,4 +29,4 @@ async function build() {
   }
 }
 
-export default build;
+export default build;npm 

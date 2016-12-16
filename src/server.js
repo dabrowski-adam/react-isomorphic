@@ -37,6 +37,8 @@ import { setRuntimeVariable } from './actions/runtime';
 import { setLocale } from './actions/intl';
 import { port, auth, locales } from './config';
 
+import compression from 'compression';
+
 const app = express();
 
 //
@@ -65,6 +67,8 @@ app.use(requestLanguage({
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+app.use(compression());
 
 //
 // Authentication

@@ -68,6 +68,7 @@
     "browser-sync": "^2.18.2",
     "bulma": "^0.2.3",
     "chai": "^3.5.0",
+    "compression": "^1.6.2",
     "css-loader": "^0.26.0",
     "enzyme": "^2.6.0",
     "eslint": "^3.10.2",
