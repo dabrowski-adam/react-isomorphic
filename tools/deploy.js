@@ -19,7 +19,7 @@ import render from './render';
  * format and copies it to the output (build) folder.
  */
 process.argv.push('--release');
-
+process.argv.push('--production');
 async function build() {
   await run(clean);
   await run(extractMessages);
