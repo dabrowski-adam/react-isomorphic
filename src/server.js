@@ -67,8 +67,8 @@ app.use(requestLanguage({
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(minify());
 app.use(compression());
+app.use(minify());
 
 //
 // Authentication
