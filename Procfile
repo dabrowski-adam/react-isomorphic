@@ -1,2 +1,2 @@
-web: npm run build -- --production && node ./build/server.js
+web: npm run deploy && node ./build/server.js
 
