@@ -21,6 +21,7 @@ import ReactDOM from 'react-dom/server';
 import UniversalRouter from 'universal-router';
 import PrettyError from 'pretty-error';
 import { IntlProvider } from 'react-intl';
+import compression from 'compression';
 
 import './serverIntlPolyfill';
 import App from './components/App';
@@ -36,8 +37,6 @@ import configureStore from './store/configureStore';
 import { setRuntimeVariable } from './actions/runtime';
 import { setLocale } from './actions/intl';
 import { port, auth, locales } from './config';
-
-import compression from 'compression';
 
 const app = express();
 
