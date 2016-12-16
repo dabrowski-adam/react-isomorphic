@@ -8,11 +8,7 @@
  */
 
 import run from './run';
-import clean from './clean';
-import extractMessages from './extractMessages';
-import copy from './copy';
-import bundle from './bundle';
-import render from './render';
+import build from './build';
 
 /**
  * Compiles the project from source files into a distributable
@@ -21,11 +17,7 @@ import render from './render';
 async function deploy() {
   process.argv.push('--release');
   process.argv.push('--production');
-
-  await run(clean);
-  await run(extractMessages);
-  await run(copy);
-  await run(bundle);
+  await run(require('./build'));
 
   if (process.argv.includes('--static')) {
     await run(render);
