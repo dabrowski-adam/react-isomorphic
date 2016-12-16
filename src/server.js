@@ -22,6 +22,7 @@ import UniversalRouter from 'universal-router';
 import PrettyError from 'pretty-error';
 import { IntlProvider } from 'react-intl';
 import compression from 'compression';
+import minify from 'express-minify';
 
 import './serverIntlPolyfill';
 import App from './components/App';
@@ -66,7 +67,7 @@ app.use(requestLanguage({
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+app.use(minify());
 app.use(compression());
 
 //
