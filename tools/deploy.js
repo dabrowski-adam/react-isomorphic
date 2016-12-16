@@ -18,9 +18,10 @@ import render from './render';
  * Compiles the project from source files into a distributable
  * format and copies it to the output (build) folder.
  */
-process.argv.push('--release');
-process.argv.push('--production');
-async function build() {
+async function deploy() {
+  process.argv.push('--release');
+  process.argv.push('--production');
+
   await run(clean);
   await run(extractMessages);
   await run(copy);
@@ -31,4 +32,4 @@ async function build() {
   }
 }
 
-export default build;
+export default deploy;
