@@ -8,7 +8,6 @@
  */
 
 import run from './run';
-import render from './render';
 
 /**
  * Compiles the project from source files into a distributable
@@ -18,9 +17,6 @@ async function deployOnHeroku() {
   if (process.env.NODE_ENV === 'production') {
     process.argv.push('--release');
     await run(require('./build'));
-    if (process.argv.includes('--static')) {
-      await run(render);
-    }
   }
 }
 
