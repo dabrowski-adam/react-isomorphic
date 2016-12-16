@@ -51,6 +51,8 @@ global.navigator.userAgent = global.navigator.userAgent || 'all';
 //
 // Register Node.js middleware
 // -----------------------------------------------------------------------------
+app.use(compression());
+app.use(minify());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cookieParser());
 app.use(requestLanguage({
@@ -67,8 +69,6 @@ app.use(requestLanguage({
 }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(compression());
-app.use(minify());
 
 //
 // Authentication
