@@ -1,0 +1,152 @@
+{
+  "basics": {
+    "name": "Adam Dąbrowski",
+    "label": "Developer",
+    "picture": "https://instagram.fwaw3-1.fna.fbcdn.net/t51.2885-19/s150x150/13658859_126664037779747_509050597_a.jpg",
+    "email": "contact@adamdabrowski.com",
+    "phone": "696 640 036",
+    "website": "https://adamdabrowski.com",
+    "summary": "",
+    "location": {
+      "address": "Obrońców Westerplatte 12A / 4",
+      "postalCode": "91-811",
+      "city": "Łódź",
+      "countryCode": "PL",
+      "region": "Łódzkie"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Teyon",
+      "position": "Gameplay Programmer",
+      "website": "http://www.teyon.com/",
+      "startDate": "2014-08",
+      "endDate": "2014-09",
+      "summary": "",
+      "highlights": [
+        "(LUA) Scripting the interface and gameplay for Mysteries of Olympus"
+      ]
+    },
+    {
+      "company": "Inwedo",
+      "position": "Web Developer",
+      "website": "http://inwedo.com/",
+      "startDate": "2011-06",
+      "endDate": "2011-08",
+      "summary": "",
+      "highlights": [
+        "(PHP) Translation of the Apostrophe Now CMS into Polish.",
+        "(PHP—Symfony) Development of a breathalyser comparison application for ilewekrwi.pl"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Łódź University of Technology",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2013",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Akademia Młodych Twórców",
+      "area": "High-level programming languages (C#)",
+      "studyType": "Certification",
+      "startDate": "2010",
+      "endDate": "2011",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Goat Mountaineer",
+      "publisher": "",
+      "releaseDate": "2014-08-31",
+      "website": "http://gamejolt.com/games/goat-mountaineer/33669",
+      "summary": "My entry for the IndieQuilt game jam. Made in Unity."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Advanced",
+      "keywords": [
+        "Unity (C#)"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "Advanced",
+      "keywords": [
+        "Photoshop, GIMP",
+        "Illustrator, Inkcape",
+        "Lightroom, Darktable",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "C++",
+        "LUA",
+        "Python",
+        "Bash"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Historical Fencing",
+        "Powerlifting"
+      ]
+    },
+    {
+      "name": "Writing",
+      "keywords": [
+        "Fantasy",
+        "Poetry"
+      ]
+    },
+    {
+      "name": "DIY",
+      "keywords": [
+        "Perfumes",
+        "Homebrewing"
+      ]
+    }
+  ],
+  "references": []
+}
